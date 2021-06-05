@@ -1,0 +1,47 @@
+.headerBody {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: -80px;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #282633;
+  opacity: 0.6;
+}
+
+.headerBody__info {
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  margin: 0px 100px;
+  color: white;
+}
+
+.headerBody__info > h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.my-btn {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 70px;
+  border: none;
+  outline-width: none;
+  margin-top: 50px;
+  background-color: #fcd842;
+  transition: 0.5s;
+}
+
+.my-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
